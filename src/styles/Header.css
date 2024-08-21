@@ -1,0 +1,29 @@
+.navbar-custom {
+    background-color: #db2828; /* Cor de fundo */
+    padding-top: 20px; /* Espaçamento no topo */
+    padding-bottom: 20px; /* Espaçamento na parte inferior */
+}
+
+.texto-header .nav-link,
+.navbar-brand, /* Adiciona a cor branca e sombra ao texto do título */
+.form-control, /* Campo de busca */
+.btn-outline-success { /* Botão de busca */
+    color: #ffffff !important; /* Define a cor dos textos e do botão como branca */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+}
+
+.texto-header .nav-link:hover,
+.navbar-brand:hover, /* Define a cor dos textos e do título ao passar o mouse */
+.btn-outline-success:hover { /* Define a cor do botão ao passar o mouse */
+    color: #dcdcdc !important; /* Cor dos links ao passar o mouse */
+}
+
+.form-control {
+    background-color: #ffffff; 
+    border-color: #ffffff; 
+}
+
+.btn-outline-success {
+    border-color: #ffffff !important; 
+}
+
