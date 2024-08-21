@@ -1,0 +1,32 @@
+* { /* reseta os "dados básicos da página*/
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo-home{
+    background-color: gray;
+}
+
+.imagem-header {
+    height: 90vh;
+    background-image: url('https://www.gastronomia.com.br/wp-content/uploads/2023/11/comida-com-s-salmao-strudel-sushi-e-muito-mais.jpg');
+    background-size: cover;
+    background-position: center;
+}
+    
+.titulo-header {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.titulo-header button {
+    background-color: #ffffff;
+    padding: 10px 25px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
