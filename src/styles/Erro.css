@@ -1,0 +1,12 @@
+.error {
+    position: relative;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.error .img-fluid-max {
+    max-width: 100%;
+    height: auto;
+}

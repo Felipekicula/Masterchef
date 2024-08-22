@@ -1,47 +1,167 @@
 {
-    "receitas": [
-      {
-        "id": 1,
-        "titulo": "Bolo de Chocolate",
-        "ingredientes": [
-          "2 xícaras de farinha de trigo",
-          "1 xícara de açúcar",
-          "1 xícara de achocolatado em pó",
-          "1/2 xícara de óleo",
-          "1 xícara de leite",
-          "3 ovos",
-          "1 colher de sopa de fermento em pó"
-        ],
-        "modoPreparo": "Misture todos os ingredientes secos em uma tigela. Adicione os ovos, o óleo e o leite, misturando bem. Por fim, acrescente o fermento e misture delicadamente. Despeje a massa em uma forma untada e asse em forno pré-aquecido a 180°C por cerca de 40 minutos."
-      },
-      {
-        "id": 2,
-        "titulo": "Salada Grega",
-        "ingredientes": [
-          "2 tomates picados",
-          "1 pepino picado",
-          "1/2 cebola roxa fatiada",
-          "100g de queijo feta",
-          "Azeitonas pretas",
-          "Azeite de oliva",
-          "Orégano",
-          "Sal"
-        ],
-        "modoPreparo": "Em uma tigela grande, misture os tomates, pepino e cebola. Adicione o queijo feta e as azeitonas. Tempere com azeite, orégano e sal a gosto. Sirva imediatamente."
-      },
-      {
-        "id": 3,
-        "titulo": "Lasanha de Berinjela",
-        "ingredientes": [
-          "2 berinjelas fatiadas",
-          "300g de molho de tomate",
-          "200g de queijo muçarela",
-          "100g de presunto",
-          "1 colher de sopa de azeite",
-          "Sal e pimenta a gosto"
-        ],
-        "modoPreparo": "Tempere as fatias de berinjela com sal e pimenta. Grelhe levemente as fatias em uma frigideira com azeite. Em uma forma, alterne camadas de berinjela, molho de tomate, queijo e presunto. Repita as camadas até os ingredientes acabarem, finalizando com queijo. Leve ao forno pré-aquecido a 180°C por 30 minutos."
-      }
-    ]
-  }
-  
+  "receitas": [
+    {
+      "id": 1,
+      "titulo": "Bolo de Chocolate",
+      "ingredientes": [
+        "2 xícaras de farinha de trigo",
+        "1 xícara de açúcar",
+        "1 xícara de achocolatado em pó",
+        "1/2 xícara de óleo",
+        "1 xícara de leite",
+        "3 ovos",
+        "1 colher de sopa de fermento em pó"
+      ],
+      "modoPreparo": "Misture todos os ingredientes secos em uma tigela. Adicione os ovos, o óleo e o leite, misturando bem. Por fim, acrescente o fermento e misture delicadamente. Despeje a massa em uma forma untada e asse em forno pré-aquecido a 180°C por cerca de 40 minutos."
+    },
+    {
+      "id": 2,
+      "titulo": "Salada Grega",
+      "ingredientes": [
+        "2 tomates picados",
+        "1 pepino picado",
+        "1/2 cebola roxa fatiada",
+        "100g de queijo feta",
+        "Azeitonas pretas",
+        "Azeite de oliva",
+        "Orégano",
+        "Sal"
+      ],
+      "modoPreparo": "Em uma tigela grande, misture os tomates, pepino e cebola. Adicione o queijo feta e as azeitonas. Tempere com azeite, orégano e sal a gosto. Sirva imediatamente."
+    },
+    {
+      "id": 3,
+      "titulo": "Lasanha de Berinjela",
+      "ingredientes": [
+        "2 berinjelas fatiadas",
+        "300g de molho de tomate",
+        "200g de queijo muçarela",
+        "100g de presunto",
+        "1 colher de sopa de azeite",
+        "Sal e pimenta a gosto"
+      ],
+      "modoPreparo": "Tempere as fatias de berinjela com sal e pimenta. Grelhe levemente as fatias em uma frigideira com azeite. Em uma forma, alterne camadas de berinjela, molho de tomate, queijo e presunto. Repita as camadas até os ingredientes acabarem, finalizando com queijo. Leve ao forno pré-aquecido a 180°C por 30 minutos."
+    },
+    {
+      "id": 4,
+      "titulo": "Espaguete Carbonara",
+      "ingredientes": [
+        "250g de espaguete",
+        "100g de bacon picado",
+        "2 ovos",
+        "1/2 xícara de queijo parmesão ralado",
+        "2 dentes de alho picados",
+        "Sal e pimenta a gosto"
+      ],
+      "modoPreparo": "Coza o espaguete conforme as instruções da embalagem. Em uma frigideira, frite o bacon até ficar crocante. Adicione o alho e cozinhe por mais 1 minuto. Em uma tigela, misture os ovos com o queijo parmesão. Escorra o espaguete e misture com o bacon e alho. Retire do fogo e adicione a mistura de ovos e queijo, mexendo rapidamente. Tempere com sal e pimenta a gosto."
+    },
+    {
+      "id": 5,
+      "titulo": "Quiche de Alho-Poró",
+      "ingredientes": [
+        "1 massa de torta (comprada ou caseira)",
+        "2 alho-porós fatiados",
+        "200g de queijo gruyère ralado",
+        "3 ovos",
+        "1 xícara de creme de leite",
+        "Sal e pimenta a gosto"
+      ],
+      "modoPreparo": "Pré-aqueça o forno a 180°C. Refogue o alho-poró em uma frigideira até ficar macio. Em uma tigela, misture os ovos com o creme de leite e o queijo. Adicione o alho-poró refogado. Tempere com sal e pimenta. Coloque a mistura sobre a massa de torta e asse por cerca de 30 minutos ou até o recheio estar firme e dourado."
+    },
+    {
+      "id": 6,
+      "titulo": "Tacos de Carne",
+      "ingredientes": [
+        "500g de carne moída",
+        "1 pacote de tempero para taco",
+        "1/2 xícara de água",
+        "Tortilhas de milho",
+        "Alface picada",
+        "Tomate picado",
+        "Queijo ralado"
+      ],
+      "modoPreparo": "Cozinhe a carne moída em uma frigideira até dourar. Adicione o tempero para taco e a água, cozinhando até o líquido evaporar. Aqueça as tortilhas. Monte os tacos com a carne, alface, tomate e queijo a gosto."
+    },
+    {
+      "id": 7,
+      "titulo": "Sopa de Abóbora",
+      "ingredientes": [
+        "1 abóbora média descascada e picada",
+        "1 cebola picada",
+        "2 dentes de alho picados",
+        "1 litro de caldo de legumes",
+        "1 colher de sopa de azeite",
+        "Sal e pimenta a gosto",
+        "1/2 xícara de creme de leite"
+      ],
+      "modoPreparo": "Refogue a cebola e o alho no azeite até ficarem macios. Adicione a abóbora e o caldo de legumes. Cozinhe até a abóbora estar macia. Bata tudo no liquidificador até obter um creme. Tempere com sal e pimenta e adicione o creme de leite. Aqueça antes de servir."
+    },
+    {
+      "id": 8,
+      "titulo": "Frango ao Curry",
+      "ingredientes": [
+        "500g de peito de frango cortado em cubos",
+        "2 colheres de sopa de curry em pó",
+        "1 cebola picada",
+        "2 dentes de alho picados",
+        "1 lata de leite de coco",
+        "Sal e pimenta a gosto",
+        "Coentro fresco para decorar"
+      ],
+      "modoPreparo": "Refogue a cebola e o alho em uma panela até ficarem macios. Adicione o frango e cozinhe até dourar. Polvilhe o curry e mexa bem. Adicione o leite de coco e cozinhe até o frango estar completamente cozido. Tempere com sal e pimenta e decore com coentro fresco antes de servir."
+    },
+    {
+      "id": 9,
+      "titulo": "Bife à Parmegiana",
+      "ingredientes": [
+        "4 bifes de carne bovina",
+        "1 xícara de farinha de trigo",
+        "1 xícara de farinha de rosca",
+        "2 ovos batidos",
+        "1 xícara de molho de tomate",
+        "200g de queijo muçarela",
+        "Óleo para fritar",
+        "Sal e pimenta a gosto"
+      ],
+      "modoPreparo": "Tempere os bifes com sal e pimenta. Passe-os na farinha de trigo, depois nos ovos e na farinha de rosca. Frite os bifes em óleo quente até dourarem. Coloque os bifes fritos em uma assadeira, cubra com molho de tomate e queijo. Leve ao forno pré-aquecido a 180°C por 20 minutos ou até o queijo derreter."
+    },
+    {
+      "id": 10,
+      "titulo": "Mousse de Maracujá",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 lata de creme de leite",
+        "1 xícara de suco de maracujá",
+        "1 pacote de gelatina incolor",
+        "1/2 xícara de água"
+      ],
+      "modoPreparo": "Hidrate a gelatina na água e depois dissolva em banho-maria. No liquidificador, bata o leite condensado, o creme de leite e o suco de maracujá. Adicione a gelatina dissolvida e bata novamente. Despeje em taças e leve à geladeira por pelo menos 4 horas antes de servir."
+    },
+    {
+      "id": 11,
+      "titulo": "Panquecas Americanas",
+      "ingredientes": [
+        "1 xícara de farinha de trigo",
+        "2 colheres de sopa de açúcar",
+        "1 colher de sopa de fermento em pó",
+        "1/2 colher de chá de sal",
+        "1 ovo",
+        "1 xícara de leite",
+        "2 colheres de sopa de manteiga derretida"
+      ],
+      "modoPreparo": "Em uma tigela, misture a farinha, o açúcar, o fermento e o sal. Em outra tigela, bata o ovo, o leite e a manteiga. Adicione os ingredientes líquidos aos secos e misture até ficar homogêneo. Aqueça uma frigideira antiaderente e coloque porções da massa, cozinhando até surgirem bolhas na superfície. Vire e cozinhe até dourar. Sirva com mel ou maple syrup."
+    },
+    {
+      "id": 12,
+      "titulo": "Pudim de Leite Condensado",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 latas de leite",
+        "3 ovos",
+        "1 xícara de açúcar",
+        "1/2 xícara de água"
+      ],
+      "modoPreparo": "Em uma panela, caramelize o açúcar com a água até formar um caramelo. Despeje o caramelo em uma forma de pudim. No liquidificador, bata o leite condensado, o leite e os ovos. Despeje a mistura sobre o caramelo na forma. Cozinhe em banho-maria no forno pré-aquecido a 180°C por aproximadamente 1 hora. Deixe esfriar antes de desenformar."
+    }
+  ]
+}

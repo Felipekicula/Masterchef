@@ -1,5 +1,5 @@
 .navbar-custom {
-    background-color: #db2828; /* Cor de fundo */
+    background-color: #b84b2a; /* Cor de fundo */
     padding-top: 20px; /* Espaçamento no topo */
     padding-bottom: 20px; /* Espaçamento na parte inferior */
 }
@@ -25,5 +25,9 @@
 
 .btn-outline-success {
     border-color: #ffffff !important; 
+}
+
+.separator {
+    border-bottom: 4px solid #000000;
 }
 
