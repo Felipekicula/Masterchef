@@ -1,0 +1,18 @@
+/* AdicionarReceita.css */
+.adicionar-receita-container {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-titulo {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.btn-submit {
+    margin-top: 1rem;
+}

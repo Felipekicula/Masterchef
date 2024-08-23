@@ -1,29 +1,30 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/header";
+import Footer from "../components/footer";
+import '../styles/Receitas.css';
+import { useReceitas } from "../context/ReceitasContext"; // Verifique o caminho
 
-export default function Receitas(){
-    const [receitas, setReceitas] = useState([]);
+export default function Receitas() {
+    const { receitas } = useReceitas();
 
-    useEffect(()=>{
-        fetch('./receitas.json')
-            .then(response => response.json())
-            .then(data => setReceitas(data.receitas))
-            .catch(error => console.error('Receita não encontrada', error));
-    }, []);
-
-    return(
+    return (
         <div>
-            <Header/>
-            <h1>Receitas</h1>
-            <div>
-                {receitas.map(receita=> (
-                    <div key={receita.id}>
-                        <h3>{receita.titulo}</h3>
-                        <Link to={`/Receitas/${receita.id}`}>Ver mais detalhes</Link>
+            <Header />
+            <h1 className="titulo-receitas"> Receitas adicionadas</h1>
+            <div className="row">
+                {receitas.map(receita => (
+                    <div key={receita.id} className="col-lg-4 col-md-6 col-sm-12">
+                        <div className="card">
+                            <div className="card-body">
+                                <img src={receita.imagem} alt={receita.titulo} className="card-img-top imagem-receita" />
+                                <Link to={`/receitas/${receita.id}`} className="titulo-receita-card">{receita.titulo}</Link>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </div>
+            <Footer />
         </div>
     );
 }
