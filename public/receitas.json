@@ -3,6 +3,7 @@
     {
       "id": 1,
       "titulo": "Bolo de Chocolate",
+      "imagem": "https://i.ytimg.com/vi/QFMxJWh3mqE/maxresdefault.jpg",
       "ingredientes": [
         "2 xícaras de farinha de trigo",
         "1 xícara de açúcar",
@@ -17,6 +18,7 @@
     {
       "id": 2,
       "titulo": "Salada Grega",
+      "imagem": "https://conteudo.imguol.com.br/c/entretenimento/c6/2023/01/13/salada-grega-do-avec-1673627091351_v2_4x3.jpg",
       "ingredientes": [
         "2 tomates picados",
         "1 pepino picado",
@@ -32,6 +34,7 @@
     {
       "id": 3,
       "titulo": "Lasanha de Berinjela",
+      "imagem": "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-lasanha-berinjela-a-napolitana.jpg",
       "ingredientes": [
         "2 berinjelas fatiadas",
         "300g de molho de tomate",
@@ -45,6 +48,7 @@
     {
       "id": 4,
       "titulo": "Espaguete Carbonara",
+      "imagem": "https://s2-receitas.glbimg.com/0n5TfNF-Wn-PEL0wVhM7gkbLEiE=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/U/o/zTrs7hQ9iu0pdHv0BjdA/espaguete-a-carbonara.jpg",
       "ingredientes": [
         "250g de espaguete",
         "100g de bacon picado",
@@ -58,6 +62,7 @@
     {
       "id": 5,
       "titulo": "Quiche de Alho-Poró",
+      "imagem": "https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-mini-quiche-alho-poro.jpg",
       "ingredientes": [
         "1 massa de torta (comprada ou caseira)",
         "2 alho-porós fatiados",
@@ -71,6 +76,7 @@
     {
       "id": 6,
       "titulo": "Tacos de Carne",
+      "imagem": "https://receitasdepesos.com.br/wp-content/uploads/2024/07/558-2.jpg",
       "ingredientes": [
         "500g de carne moída",
         "1 pacote de tempero para taco",
@@ -85,6 +91,7 @@
     {
       "id": 7,
       "titulo": "Sopa de Abóbora",
+      "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/3182b2a6002d7c6eae45301adb4cf349_XL.jpg",
       "ingredientes": [
         "1 abóbora média descascada e picada",
         "1 cebola picada",
@@ -99,6 +106,7 @@
     {
       "id": 8,
       "titulo": "Frango ao Curry",
+      "imagem": "https://i.panelinha.com.br/i1/228-bk-5378-frango-ao-curry-com-maca.webp",
       "ingredientes": [
         "500g de peito de frango cortado em cubos",
         "2 colheres de sopa de curry em pó",
@@ -113,6 +121,7 @@
     {
       "id": 9,
       "titulo": "Bife à Parmegiana",
+      "imagem": "https://www.estadao.com.br/resizer/v2/WSWGR3VNIVEMZEDCZ3DPAQD3BQ.jpg?quality=80&auth=1e80a50a274f370b5a498c5c05e3c3922fcfcc23a8d31821b4ab182863e56060&width=720&height=503&smart=true",
       "ingredientes": [
         "4 bifes de carne bovina",
         "1 xícara de farinha de trigo",
@@ -128,6 +137,7 @@
     {
       "id": 10,
       "titulo": "Mousse de Maracujá",
+      "imagem": "https://static.itdg.com.br/images/1200-675/19903f5fde8b603c472469725008fd1f/shutterstock-1907121220.jpg",
       "ingredientes": [
         "1 lata de leite condensado",
         "1 lata de creme de leite",
@@ -140,28 +150,17 @@
     {
       "id": 11,
       "titulo": "Panquecas Americanas",
+      "imagem": "https://catracalivre.com.br/wp-content/uploads/2023/10/istock-1148638351-910x736.jpg",
       "ingredientes": [
         "1 xícara de farinha de trigo",
-        "2 colheres de sopa de açúcar",
-        "1 colher de sopa de fermento em pó",
-        "1/2 colher de chá de sal",
+        "1 colher de sopa de açúcar",
+        "1 colher de chá de fermento em pó",
         "1 ovo",
         "1 xícara de leite",
-        "2 colheres de sopa de manteiga derretida"
+        "2 colheres de sopa de manteiga derretida",
+        "1 pitada de sal"
       ],
-      "modoPreparo": "Em uma tigela, misture a farinha, o açúcar, o fermento e o sal. Em outra tigela, bata o ovo, o leite e a manteiga. Adicione os ingredientes líquidos aos secos e misture até ficar homogêneo. Aqueça uma frigideira antiaderente e coloque porções da massa, cozinhando até surgirem bolhas na superfície. Vire e cozinhe até dourar. Sirva com mel ou maple syrup."
-    },
-    {
-      "id": 12,
-      "titulo": "Pudim de Leite Condensado",
-      "ingredientes": [
-        "1 lata de leite condensado",
-        "2 latas de leite",
-        "3 ovos",
-        "1 xícara de açúcar",
-        "1/2 xícara de água"
-      ],
-      "modoPreparo": "Em uma panela, caramelize o açúcar com a água até formar um caramelo. Despeje o caramelo em uma forma de pudim. No liquidificador, bata o leite condensado, o leite e os ovos. Despeje a mistura sobre o caramelo na forma. Cozinhe em banho-maria no forno pré-aquecido a 180°C por aproximadamente 1 hora. Deixe esfriar antes de desenformar."
+      "modoPreparo": "Em uma tigela, misture a farinha, o açúcar, o fermento e o sal. Em outra tigela, bata o ovo, o leite e a manteiga. Adicione os ingredientes secos à mistura líquida, mexendo até ficar homogêneo. Aqueça uma frigideira antiaderente e coloque porções de massa para formar as panquecas. Cozinhe até surgirem bolhas na superfície, vire e cozinhe até dourar do outro lado."
     }
   ]
 }

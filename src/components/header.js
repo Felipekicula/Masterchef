@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -39,6 +38,9 @@ function Header() {
             </li>
             <li className="nav-item texto-header">
               <Link className="nav-link" to="/receitas">Receitas</Link>
+            </li>
+            <li className="nav-item texto-header">
+            <Link to="/adicionar-receita" className="nav-link">Adicionar Receita</Link>
             </li>
           </ul>
           <form className="d-flex" role="search">
